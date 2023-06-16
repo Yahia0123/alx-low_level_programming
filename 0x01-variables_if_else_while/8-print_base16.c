@@ -10,16 +10,13 @@
 
 int main(void)
 {
-	int X = 1;
+	int X = 48;
 
-	while (X < 16)
+	while (X <= 102)
 	{
-	if (X >= 10)
-		putchar(a);
-		a++;
-	else
-		putchar(X + '0');
-	X++;
+	if (X == 57)
+		X += 39;
+		X++;
 	}
 	putchar('\n');
 	return (0);
