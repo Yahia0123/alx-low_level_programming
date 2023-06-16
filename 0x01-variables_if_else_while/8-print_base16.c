@@ -10,14 +10,15 @@
 
 int main(void)
 {
-	int X = 48;
+	int digit = 48;
 
-	while (X <= 102)
+	while (digit <= 102)
 	{
-		putchar(X);
-	if (X == 57)
-		X += 39;
-		X++;
+	putchar(digit);
+
+	if (digit == 57)
+		digit += 39;
+	digit++;
 	}
 	putchar('\n');
 	return (0);
