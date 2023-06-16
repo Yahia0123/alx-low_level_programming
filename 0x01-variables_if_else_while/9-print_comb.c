@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - Entry point
  *
- * Description: print 0, 1, 2, 3, ..., 9
+ * Description: print 0, 1, 2, - 9
  *
- * return: 0 (Success)
+ * Return: Always 0 (Success)
 */
 
 int main(void)
