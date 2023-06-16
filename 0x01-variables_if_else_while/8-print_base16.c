@@ -14,6 +14,7 @@ int main(void)
 
 	while (X <= 102)
 	{
+		putchar(X);
 	if (X == 57)
 		X += 39;
 		X++;
