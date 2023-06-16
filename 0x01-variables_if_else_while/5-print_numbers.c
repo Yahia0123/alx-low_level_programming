@@ -14,7 +14,7 @@ int main(void)
 
 	while (X < 10)
 	{
-		printf("%d \n", X);
+		printf("%d", X);
 		X++;
 	}
 	return (0);
