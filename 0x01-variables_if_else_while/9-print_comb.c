@@ -3,8 +3,7 @@
 /**
  * main - entry point
  *
- * Description: prints all possible combinations of single-digit numbers
- * 		Numbers must be separated by ,, followed by a space
+ * Description: print 0, 1, 2, 3, ..., 9
  *
  * return: 0 (Success)
 */
@@ -15,7 +14,7 @@ int main(void)
 
 	while (ch < 10)
 	{
-		if (ch != 9){
+		if (ch == 9){
 		putchar(ch);
 		}
 	putchar(ch + '0');
