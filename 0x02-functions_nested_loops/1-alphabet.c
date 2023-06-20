@@ -8,12 +8,11 @@
  * Return: Always (0) (Success)
 */
 
-int main(void)
+int _putchar(char c)
 {
-	char ch = 'a';
-
+	char ch;
+	
+	for(ch = 'a', ch <= 'z', ch++)
 	putchar(ch);
-	ch++;
-		putchar('\n');
-	print_alphabet(0);
+	putchar('\n');
 }
