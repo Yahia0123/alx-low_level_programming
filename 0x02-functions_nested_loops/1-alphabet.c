@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
  * main - Entry point
  *
@@ -15,5 +15,5 @@ int main(void)
 	putchar(ch);
 	ch++;
 		putchar('\n');
-	print_alphabet();
+	print_alphabet(0);
 }
