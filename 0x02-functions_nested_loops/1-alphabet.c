@@ -13,6 +13,6 @@ int _putchar(char c)
 	char ch;
 	
 	for(ch = 'a', ch <= 'z', ch++)
-	putchar(ch);
-	putchar('\n');
+	_putchar(ch);
+	_putchar('\n');
 }
