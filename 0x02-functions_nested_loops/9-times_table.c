@@ -18,12 +18,12 @@ void times_table(void)
 		_putchar(',');
 		_putchar(' ');
 
-		out = X * Y;
-		if (out <= 9)
+		Z = X * Y;
+		if (Z <= 9)
 			_putchar(' ');
 		else
-			_putchar((out / 10) + 48);
-		_putchar((out % 10) + 48);
+			_putchar((Z / 10) + 48);
+		_putchar((Z % 10) + 48);
 	}
 	_putchar('\n');
 	}
